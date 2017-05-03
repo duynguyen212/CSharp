@@ -12,7 +12,7 @@ namespace Gestion_Cafe_Store.DAO
     {
         private static DataProvider instance;    // Dong goi bang phim tat Ctrl + R + E
 
-        private string strConn = "Data Source=ServerName\\SQLEXPRESS; Initial Catalog=QuanLyQuanCafe; Integrated Security=True";
+        private string strConn = "Data Source=ServerName\\SQLEXPRESS; Initial Catalog=CafeStore(DB Name); Integrated Security=True";
 
         public static DataProvider Instance
         {

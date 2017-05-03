@@ -10,7 +10,7 @@ namespace Gestion_Cafe_Store.DAO
 {
     public class DataProvider
     {
-        private static DataProvider instance;    // Dong goi bang phim tat Ctrl + R + E
+        private static DataProvider instance;    // Generate the property with Ctrl + R + E
 
         private string strConn = "Data Source=ServerName\\SQLEXPRESS; Initial Catalog=CafeStore(DB Name); Integrated Security=True";
 
